@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(/images/notebook.png);
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+.section {
+    width: 60%;
+    margin: auto;
+    background: white;
+}

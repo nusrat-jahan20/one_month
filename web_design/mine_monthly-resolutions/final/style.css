@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7; /* line-height is unit-less */
+    font-size: 100%;
+}
+.full-page {
+    width: 980px;
+    margin: 0 auto;
+}
+.container {
+    width: 590px;
+    display: block;
+    float: left;
+}
+img {
+    width: 541px;
+}
+h1, h2, h3, h6, p, ul, li {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.read-meditate {
+    margin-top: 50px;
+}
+h3 {
+    margin: 45px 0 18px 0;
+}
+.section p {
+    font-size: 12px;
+}
+.border p {
+    font-size: 20px;
+}
+.section .gray-p {
+    color: rgb(179, 179, 179);
+}
+hr {
+    border: 0;
+    border-top: 1px solid rgb(199, 199, 199);
+}
+.header {
+    margin: 20px 0;
+}
+.section {
+    background: white;
+    padding: 30px 20px 50px;
+    transition: .3s;
+}
+.section:hover {
+    box-shadow: 10px 10px 10px rgb(161, 161, 161);
+    transform: scale(1.02);
+}
+.footer {
+    margin-bottom: 30px;
+}
+.side-content {
+    float: left;
+    background: white;
+    width: 330px;
+    margin: 113px 0 0 15px;
+    padding: 20px;
+    transition: .3s;
+}
+.side-content:hover {
+    box-shadow: 10px 10px 10px rgb(161, 161, 161);
+    transform: scale(1.02);
+} 
+.circle img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+blockquote {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 15px;
+    font-style: italic;
+}
+.border {
+    border-left: 6px solid rgb(194, 194, 194);
+}
